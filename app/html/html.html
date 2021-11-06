@@ -24,7 +24,7 @@
 			<div class="nose"></div>
 		</div>
 		<p class="greeting">Merry Christmas</p>
-		<nav id="menu">
+		<nav id="menu" class="gradient">
 			<ul>
 				<li>
 					<div><a href="#">Dashboard <span class="material-icons">dashboard</span></a></div>
@@ -49,19 +49,19 @@
 					<nav class="album_icons">
 						<ul>
 							<li>
-								<a href="#"><span class="material-icons">notifications</span></a>
+								<button><span class="material-icons">notifications</span></button>
 							</li>
 							<li>
-								<a href="#"><span class="material-icons">groups</span></a>
+								<button><span class="material-icons">groups</span></button>
 							</li>
 							<li>
-								<a href="#"><span class="material-icons">photo_camera</span></a>
+								<button><span class="material-icons">photo_camera</span></button>
 							</li>
 							<li>
-								<a href="#"><span class="material-icons">favorite_border</span></a>
+								<button><span class="material-icons">favorite_border</span></button>
 							</li>
 							<li>
-								<a href="#"><span class="material-icons">place</span></a>
+								<button><span class="material-icons">place</span></button>
 							</li>
 						</ul>
 					</nav>
@@ -117,10 +117,10 @@
 			<div class="socials">
 				<div class="socials_socials">
 					<ul>
-						<li><i class="fab fa-facebook-f"></i></li>
-						<li><i class="fab fa-twitter"></i></li>
-						<li><i class="fab fa-google-plus-g"></i></li>
-						<li><i class="far fa-envelope"></i></li>
+						<li><button><i class="fab fa-facebook-f"></i></button></li>
+						<li><button><i class="fab fa-twitter"></i></button></li>
+						<li><button><i class="fab fa-google-plus-g"></i></button></li>
+						<li><button><i class="far fa-envelope"></i></button></li>
 					</ul>
 				</div>
 				<span class="socials_text">    
@@ -133,11 +133,34 @@
 				</span>
 			</div>
 			<div class="sign_in">
+				<div class="sign_in_border"></div>
+				<p>?</p>
+				<span>Sign in to your account</span>
+				<div class="form_fields">
+					<div class="form_field">
+						<input type="text" placeholder="  Username">
+					</div>
+					
+					<i class="fas fa-user"></i>
+					<div class="form_field">
+						<input type="text" placeholder="  Password">
+					</div>
+					
+					<i class="fas fa-lock"></i>
+					<button class="button">SIGN IN</button>
+				</div>
 				
+			</div>
+			<div class="date_weather">
+				<p id="day1"></p>
+				<p id="day_month"></p>
+				<p class="celcium"></p>
+				<div class="line"></div>
+				<div class="weather_img"></div>
 			</div>
 		</div>
 	</div>
 		
-	
+	<script src="../js/script.js"></script>
 </body>
 </html>
