@@ -7,7 +7,7 @@ let day2;
 let days = new Array();
 days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 switch (day1){
-    case 0:day2 = days[7]; break;
+    case 0:day2 = days[6]; break;
     case 1:day2 = days[0]; break;
     case 2:day2 = days[1]; break;
     case 3:day2 = days[2]; break;
@@ -19,6 +19,7 @@ let p1=document.getElementById('day1');
 let p2=document.getElementById('day_month');
 p1.innerHTML = day2;
 p2.innerHTML = day + ' / ' + month;
+
 
 
 
