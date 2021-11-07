@@ -476,13 +476,6 @@ body {
   	background-clip: content-box, border-box;
 }
 
-.sign_in:after {
-	content: '';
-	position: absolute;
-	background: linear-gradient(90deg, rgba(250,173,22,1) 0%, rgba(250,103,82,1) 79%);
-	border-radius: 10px;
-	z-index: 10;
-}
 
 .loading1 {
 	position: absolute;
@@ -667,7 +660,7 @@ body {
 .date_weather {
 	width: 300px;
 	height: 96px;
-	margin-top: ;
+	margin-top: -76.8px;
 }
 
 .date_weather:before {
@@ -677,7 +670,6 @@ body {
 	position: absolute;
 	background-color: white;
 	border-radius: 10px;
-	margin-top: -76.8px;
 }
 
 .date_weather p {
@@ -686,7 +678,7 @@ body {
 }
 
 #day1 {
-	margin-top: -70px;
+	margin-top: 13px;
 	margin-left: 24px;
 	font-size: 30px;
 	color: #939393;
@@ -694,7 +686,7 @@ body {
 }
 
 #day_month {
-	margin-top: -30px;
+	margin-top: 50px;
 	margin-left: 30px;
 	font-size: 15px;
 	color: #939393;
@@ -703,7 +695,7 @@ body {
 .celcium {
 	font-family: 'Open Sans', sans-serif;
 	color: #fa5f48;
-	margin-top: -80px;
+	margin-top: 1px;
 	margin-left: 80px;
 	font-size: 60px;
 }
@@ -714,13 +706,166 @@ body {
 	transform: rotate(90deg);
 	background-color: #e2e0e0;
 	height: 1px;
-	margin-top: -35px;
+	margin-top: 44px;
 	margin-left: 140px;
 
 }
 
 .weather_img {
 	position: absolute;
-	margin-top: -85px;
+	margin-top: -5px;
 	margin-left: 180px;
+}
+
+.bacon_ipsum {
+	height: 288px;
+	width: 624px;
+	margin-top: 24px;
+	margin-left: 324px;
+
+}
+
+.bacon_ipsum {
+	content: '';
+	height: 288px;
+	width: 624px;
+	position: absolute;
+	background-color: white;
+	border-radius: 10px;
+	border-top: 6px solid transparent;
+	background-image: linear-gradient(white, white), 
+                      linear-gradient(to right, rgba(250,173,22,1), rgba(250,103,82,1));
+  	background-origin: border-box;
+  	background-clip: content-box, border-box;
+}
+
+.bacon_ipsum_img {
+	width: 244px;
+	height: 200px;
+	margin-left: 24px;
+	margin-top: 26px;
+	background-image: url('../img/1691682.jpg');
+	background-size: cover;
+}
+
+.bacon_ipsum_img span {
+	margin-left: 92px;
+	margin-top: 70px;
+	font-size: 60px;
+	color: #ffffff;
+}
+
+.admin span {
+	margin-top: 20px;
+	margin-left: 29px;
+	position: absolute;
+}
+
+.admin p {
+	margin-top: 20px;
+	margin-left: 60px;
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#blog_time {
+	margin-top: -37.4px;
+	margin-left: 226px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.bacon_ipsum_text {
+	margin-top: -200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	margin-left: 290px;
+}
+
+.bacon_ipsum strong {
+	position: absolute;
+	font-size: 24px;
+	margin-top: -255px;
+	margin-left: 290px;
+}
+
+.share_save span {
+	position: absolute;
+	margin: -206px 540px;
+}
+
+.share_save span:nth-child(2) {
+	margin-left: 570px;
+}
+
+.bacon_ipsum p:nth-child(7) {
+	color: #fa6a41;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
+	margin-left: 290px;
+}
+
+.contact_us {
+	margin-top: 24px;
+	width: 300px;
+	height: 332px;
+	border-top: 6px solid transparent;
+	background-image: linear-gradient(white, white), 
+                      linear-gradient(to right, rgba(250,103,82,1) , rgba(250,173,22,1));
+  	background-origin: border-box;
+  	background-clip: content-box, border-box;
+  	border-radius: 10px;
+  	background-color: #ffffff;
+}
+
+.contact_us p {
+	margin-top: 10px;
+	margin-left: 29px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+.contact_us input:nth-child(2) {
+	height: 31px;
+	border: 1px solid #e0dfdf;
+	width: 248px;
+	margin-left: 22px;
+	margin-top: -10px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contact_us input:nth-child(3) {
+	height: 31px;
+	border: 1px solid #e0dfdf;
+	width: 248px;
+	margin-left: 22px;
+	margin-top: 10px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contact_us textarea {
+	height: 112px;
+	border: 1px solid #e0dfdf;
+	width: 248px;
+	margin-left: 22px;
+	margin-top: 11px;
+	border-radius: 5px;
+	text-align: left;
+	resize: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contact_us button {
+	border-radius: 5px;
+	color: #fb872b;
+	background-color: transparent;
+	border: 1px solid #fb872b;
+	cursor: pointer;
+	height: 30px;
+	width: 100px;
+	margin-top: 18px;
+	margin-left: 100px;
+	font-family: 'Open Sans', sans-serif;
 }

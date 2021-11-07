@@ -34,3 +34,17 @@ fetch( 'http://api.openweathermap.org/data/2.5/weather?id=702550&appid=dbcd2371b
     .catch(function (){
 
     })
+
+// Час для блог-посту
+let hours=date.getHours();
+let minutes=date.getMinutes();
+let p3=document.getElementById('blog_time');
+let k='';
+if ((k+minutes).length==1){
+    k='0'+minutes;
+}
+else {
+    k=minutes
+}
+
+p3.innerHTML=hours +  ':' + k;
