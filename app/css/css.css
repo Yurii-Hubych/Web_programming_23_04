@@ -654,7 +654,10 @@ body {
 	margin-top: 27px;
 	margin-left: 58px;
 	font-family: 'Open Sans', sans-serif;
+}
 
+.form_fields div:nth-child(3){
+	margin-top: 10px;
 }
 
 .date_weather {
