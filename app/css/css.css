@@ -633,7 +633,7 @@ body {
 	height: 31px;
 	width: 248px;
 	border: 1px solid #e0dfdf;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 .form_fields i {
@@ -699,7 +699,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	color: #fa5f48;
 	margin-top: 1px;
-	margin-left: 80px;
+	margin-left: 85px;
 	font-size: 60px;
 }
 

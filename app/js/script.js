@@ -24,7 +24,7 @@ p2.innerHTML = day + ' / ' + month;
 
 
 // Погода
-fetch( 'http://api.openweathermap.org/data/2.5/weather?id=702550&appid=dbcd2371b9fd54f1ef4d69a2bc61c805')
+fetch( 'https://api.openweathermap.org/data/2.5/weather?id=702550&appid=dbcd2371b9fd54f1ef4d69a2bc61c805')
     .then(function (resp) { return resp.json () })
     .then(function (data) {
     console.log(data);
