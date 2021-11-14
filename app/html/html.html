@@ -9,6 +9,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 	<script src="https://kit.fontawesome.com/310e21f93a.js" crossorigin="anonymous"></script>
@@ -39,7 +41,7 @@
 					<div><a href="#">Message <span class="material-icons">message</span></a></div>
 				</li>
 				<li>
-					<div><a href="#">Fabric <span class="material-icons">expand_more</span> <img src="../img/merry-christmas-logo-design-template-bbb470a4ca116bc6f6a9aa2b2cfab9b4_screen.jpg" width="65px" height="65px" alt="bad internet connection"> </a></div>
+					<div><a href="#">Fabric <span class="material-icons">expand_more</span> <img src="../img/merry-christmas-logo-design-template-bbb470a4ca116bc6f6a9aa2b2cfab9b4_screen.jpg" width="65" height="65" alt="bad internet connection"> </a></div>
 				</li>
 			</ul>
 		</nav>
@@ -105,7 +107,8 @@
 				</div>
 			</div>
 			<div id="graph">
-				
+					<img src="../img/Graph(2).png" alt="Bad internet connection">
+  					<!-- <canvas id="myChart"></canvas> -->
 			</div>
 			<div id="loading">
 				<div class="loading1">
@@ -166,7 +169,7 @@
 					<span class="material-icons">admin_panel_settings</span>
 					<p>Admin</p>
 				</span>
-				<p id="blog_time"></p>
+				<p class="blog_time"></p>
 				<strong>Bacon Ipsum !</strong>
 				<p class="bacon_ipsum_text">
                     Bacon ipsum dolor amet ball tip landjaeger bresaola, <br>
@@ -179,7 +182,7 @@
 					<span class="material-icons">share</span>
 					<span class="material-icons">bookmark_border</span>
 				</div>
-				<p>Read more</p>
+				<a href="https://baconipsum.com/"><p>Read more</p></a>
 			</div>
 			<div class="contact_us">
 				<p>Contact us</p>
@@ -188,9 +191,167 @@
 				<textarea placeholder="  Message"></textarea>
 				<button class="button">SEND</button>
 			</div>
+			<div class="users">
+				<input type="text" placeholder=" Search">
+				<i class="fas fa-search"></i>
+				<div class="user1">
+					<img src="../img/Layer 13.png" alt="">
+					<div class="online"></div>
+					<p>Harry Roberts</p>
+					<p>online</p>
+					<span class="material-icons">add_circle_outline</span>
+				</div>
+				<div class="user2">
+					<img src="../img/Layer 14.png" alt="">
+					<p>Manik Rathee</p>
+					<p>5 min ago</p>
+					<span class="material-icons">add_circle_outline</span>
+				</div>
+				<div class="user3">
+					<img src="../img/Layer 15.png" alt="">
+					<p>Brad Frost</p>
+					<p>12 min ago</p>
+					<span class="material-icons">check_circle_outline</span>
+				</div>
+				<div class="user4">
+					<img src="../img/Layer 16.png" alt="">
+					<div class="online"></div>
+					<p>Claudio Guglieri</p>
+					<p>online</p>
+					<span class="material-icons">add_circle_outline</span>
+				</div>
+			</div>
+			<div class="music">
+
+				<div class="music-track">
+					<img src="../img/Layer 11.png" alt="">
+					<i class="fas fa-volume-up"></i>
+					<span class="material-icons">tune</span>
+					<span class="material-icons">play_arrow</span>
+					<span class="material-icons">fast_forward</span>
+					<span class="material-icons">fast_rewind</span>
+					<div class="music-track_time">
+						<p>2:18</p>
+						<div class="music-track_time_line">
+							<div class="music-track_time_inside_line"></div>
+						</div>
+						<i class="fas fa-random"></i>
+						<i class="fas fa-undo"></i>
+					</div>
+				</div>
+				
+				<div class="music-track-img_border"></div>
+				<p>In Dark, In Day</p>
+				<div class="music-author">
+					<p>Maya Jane Coles</p>
+					<span class="material-icons">favorite_border</span>
+					<i class="fas fa-external-link-alt"></i>
+				</div>
+			</div>
+			<div class="calendar">
+			        <div class="month">
+						<button class="button2 btn3 prev"><span class="material-icons">chevron_left</span></button>
+						<button class="button2 btn4 next"><span class="material-icons">chevron_right</span></button>
+						<h1 class="date">May</h1>
+						<hr>	
+					</div>
+					<div class="weekdays-container">
+					<div class="weekdays">
+						<div>Sun</div>
+						<div>Mon</div>
+						<div>Tue</div>
+						<div>Wed</div>
+						<div>Thu</div>
+						<div>Fri</div>
+						<div>Sat</div>
+					</div>
+					
+			        </div>
+			        <div class="days-cointainer">
+			        	<div class="days"></div>
+			        </div>    
+			</div>
+			<div class="clock">
+				<div class="left-clock-side">
+					<i class="far fa-clock"></i>
+				</div>
+				<div class="right-clock-side">
+					<p class="blog_time"></p>
+					<p class="blog_time1"></p>
+				</div>
+			</div>
+			<div class="map">
+				<img src="../img/Screenshot_75.png" alt="Bad internet connection">
+				<h1>Stonehenge</h1>
+				<p class="map-text">
+					Great Britan<br>
+					Salisbury SP4 7DE <br>
+					Sun Galaxy
+				</p>
+				<a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%BE%D1%83%D0%BD%D1%85%D0%B5%D0%BD%D0%B4%D0%B6"><span class="material-icons">place</span></a>
+			</div>
+
+			<div class="shop">
+				<button><span class="material-icons">add_circle_outline</span></button>
+				<div class="shade"></div>
+				<p>Nike</p>
+				<p>Mercurial</p>
+				<p>135$</p>
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+				</div>
+			</div>
+			<div class="chat">
+				<div class="chat-mate">
+					<div>Ennio5</div>
+					<div class="chat-mate-online"></div>
+				</div>
+				<div class="chat-first-element"> &nbsp; Yo mate!</div>
+				<div class="chat-triangle1"></div>
+				<div class="chat-second-element"><p> &nbsp; Yo mate! <br> &nbsp; Check out this <br> &nbsp; Ui kit!</p></div>
+				<div class="chat-triangle2"></div>
+				<div class="chat-third-element"><p> &nbsp; Thanks Mate!</p></div>
+				<div class="chat-triangle3"></div>
+				<div class="chat-write_msg">
+					<input type="text" placeholder="   Write a message" size="25">
+					<button><i class="fas fa-paper-plane"></i></button>
+					<label for="file-upload" class="custom-file-upload"><input id="file-upload" type="file"/>
+						<i class="fas fa-paperclip"></i>
+					</label>
+					
+				</div>
+			</div>
+
+			<div class="devices">
+				<div class="devices_top">
+					<button><i class="fas fa-desktop"></i></button>
+					<button><i class="fas fa-laptop"></i></button>
+					<button><i class="fas fa-mobile-alt"></i></button>	
+				</div>
+				<div class="devices_bot">
+					<button>&nbsp; Download the kit now!&nbsp;</button>
+				</div>
+			</div>
+			
+			<div class="shipment">
+				<img src="../img/Nike-Mercurial1-300x172.jpg" alt="Bad internet connection" width="140" height="90">
+				<p>165$</p>
+				<p>135$</p>
+				<button>Checkout</button>
+				<div class="choice">
+					<input type="radio" id="choice1" name="shipping" value="Standart Shipping">
+    			<label for="Choice1">Standart Shipping</label>
+    			<input type="radio" id="choice2" name="shipping" value="Express Shipping">
+    			<label for="Choice1">Express Shipping</label>
+				</div>	
+			</div>
 		</div>
 	</div>
-		
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	<script src="../js/script.js"></script>
 </body>
 </html>
