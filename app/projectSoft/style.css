@@ -1,0 +1,502 @@
+body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Yuji Syuku', serif;
+}
+
+.wrapper{
+    min-height: 100%;
+    background-color: white;
+    margin-bottom: 35px;
+}
+
+.container66{
+    max-width: 890px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container88{
+    max-width: 890px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#row1{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    min-height: 135px;
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -35px 20px 0;
+}
+
+.sw66{
+    display: flex;
+    width: 100%;
+    margin-top: -38px;
+    margin-bottom: -2px;
+    margin-left: -120px
+}
+
+.sw88{
+    display: flex;
+    width: 100%;
+    margin-top: -87px;
+    margin-bottom: -2px;
+    margin-left: -70px
+}
+
+#svgBigBlue{
+    /*display: none;*/
+}
+
+#svgSmallBlue{
+    display: none;
+}
+
+.block{
+    width: 100%;
+    height: 58px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.blockButt:hover{
+    background-color: beige;
+    cursor: pointer;
+    border-radius: 24px;
+    color: black;
+}
+
+.blockMarg{
+    margin: 30px 0 ;
+}
+
+.block1{
+    width: calc(100% - 23px);
+    min-height: 110px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 24px;
+    margin-left: 10px;
+    font-size: 21px;
+    font-family: 'Yuji Syuku';
+    padding: 6px;
+    resize: none;
+}
+
+#other{
+    display: flex;
+    width: 100%;
+    font-size: 24px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#form{
+    width: 70%;
+}
+
+.textQ{
+    padding-bottom: 10px;
+    font-size: 47px;
+}
+
+.text60{
+    font-size: 20px;
+    margin: 10px 0;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text80{
+    font-size: 32px;
+    margin: 10px 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/*------------------------------------------------------*/
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.buttons {
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blob-btn {
+    z-index: 1;
+    position: relative;
+    padding: 20px 46px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0505a9;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: color 0.5s;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.blob-btn:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #0505a9;
+    border-radius: 30px;
+}
+.blob-btn:after {
+    content: "";
+    z-index: -2;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s 0.2s;
+    border-radius: 30px;
+}
+.blob-btn:hover {
+    color: #fff;
+    border-radius: 30px;
+}
+.blob-btn:hover:after {
+    transition: all 0.3s;
+    left: 0;
+    top: 0;
+    border-radius: 30px;
+}
+.blob-btn__inner {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background: #fff;
+}
+.blob-btn__blobs {
+    position: relative;
+    display: block;
+    height: 100%;
+    filter: url('#goo');
+}
+.blob-btn__blob {
+    position: absolute;
+    top: 2px;
+    width: 25%;
+    height: 100%;
+    background: #0505a9;
+    border-radius: 100%;
+    transform: translate3d(0, 150%, 0) scale(1.7);
+    transition: transform 0.45s;
+}
+
+.blob-btn__blob:nth-child(1) {
+    left: 0;
+    transition-delay: 0s;
+}
+.blob-btn__blob:nth-child(2) {
+    left: 30%;
+    transition-delay: 0.08s;
+}
+.blob-btn__blob:nth-child(3) {
+    left: 60%;
+    transition-delay: 0.16s;
+}
+.blob-btn__blob:nth-child(4) {
+    left: 90%;
+    transition-delay: 0.24s;
+}
+.blob-btn:hover .blob-btn__blob {
+    transform: translateZ(0) scale(1.7);
+}
+/*------------------------------------------------------*/
+
+
+.buttMarg1{
+    margin-bottom: 25px;
+    margin-right: -4px;
+}
+
+.buttMarg2{
+    margin-bottom: -108px;
+    margin-right: -4px
+}
+
+.triangleLeft{
+    padding: 0;
+    background-color: #409B81;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    clip-path: url(#clip1);
+}
+
+.triangleLeft:hover{
+    cursor: pointer;
+    background-color: #2d7965;
+}
+
+.triangleRightBl{
+    padding: 0;
+    background-color: #4B69FD;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    clip-path: url(#clip2);
+}
+
+.triangleRightBl:hover{
+    cursor: pointer;
+    background-color: #3d55d5;
+}
+
+.triangleRightOr{
+    padding: 0;
+    background-color: #FCBD21;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    clip-path: url(#clip2);
+}
+
+
+.triangleRightOr:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+
+@media(max-width: 1124px){
+    .container{
+        max-width: 870px;
+    }
+}
+
+@media (max-width: 660px){
+    .triangleLeft{
+        width: 75px;
+        height: 100px;
+        clip-path: url(#clip1_700);
+    }
+
+    .triangleRightBl, .triangleRightOr{
+        width: 75px;
+        height: 100px;
+        clip-path: url(#clip2_700);
+    }
+    .container66{
+        padding: 0 5px;
+    }
+    .container88{
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 610px){
+    .triangleLeft{
+        width: 55px;
+        height: 100px;
+        clip-path: url(#clip1_610);
+    }
+
+    .triangleRightBl, .triangleRightOr{
+        width: 55px;
+        height: 100px;
+        clip-path: url(#clip2_610);
+    }
+}
+
+@media (max-width: 576px){
+    .textQ{
+        font-size: 32px;
+    }
+    .text6O{
+        font-size: 15px;
+    }
+    #other{
+        font-size: 25px;
+        flex-wrap: wrap;
+    }
+    .buttMarg1{
+        margin-bottom: 13px;
+    }
+    .buttMarg2{
+        margin-bottom: -129px;
+    }
+}
+
+@media (max-width: 560px) {
+    .content{
+        width: 360px;
+    }
+}
+
+@media (max-width: 490px) {
+    .content{
+        width: 310px;
+        margin: -35px 5px 0;
+    }
+    .blob-btn {
+        padding: 10px 15px;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    #form {
+        width: 100%;
+    }
+    .block1 {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 440px) {
+    .content {
+        width: 260px;
+    }
+    .sw66{
+        margin-left: -50px;
+        margin-top: 12px;
+    }
+    #svgBigBlue{
+        display: none;
+    }
+    #svgSmallBlue{
+        display: flex;
+    }
+
+    .buttons{
+        width: 117%;
+    }
+
+    .blob-btn{
+        padding: 20px 25px;
+    }
+
+    .blob-btn:before {
+        left: 23px;
+        top: 0;
+        width: 85.5%;
+        height: 100%;
+    }
+    .blob-btn__inner {
+        left: 20px;
+        top: 0;
+        width: 87%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 380px) {
+    .textQ{
+        font-size: 27px;
+    }
+    .text6O{
+        font-size: 10px;
+    }
+    .block{
+        flex-wrap: wrap;
+        line-height: 25px;
+        text-align: center;
+    }
+    .content{
+        width: 230px;
+    }
+    .blob-btn:before {
+        left: 20px;
+        top: 0;
+        width: 85.5%;
+        height: 100%;
+    }
+
+}
+@media (max-width: 360px) {
+    .container66{
+        margin-top: 70px;
+    }
+    .container88{
+        margin-top: 70px;
+    }
+    .textQ{
+        font-size: 25px;
+    }
+    .triangleLeft {
+        width: 25px;
+        height: 100px;
+        clip-path: url(#clip1_490);
+    }
+    .buttMarg1{
+        margin-bottom: 20px;
+    }
+    .buttMarg2{
+        margin-bottom: -92px;
+    }
+    .triangleRightBl, .triangleRightOr {
+        width: 25px;
+        height: 100px;
+        clip-path: url(#clip2_490);
+    }
+}
+
+@media (max-width: 330px) {
+    .content {
+        width: 200px;
+    }
+    .buttons{
+        width: 117%;
+    }
+    .blob-btn{
+        padding: 20px 27px;
+        width: 95%;
+    }
+    .blob-btn:before {
+        left: 23px;
+        top: 0;
+        width: 85.5%;
+        height: 100%;
+    }
+    .blob-btn__inner {
+        left: 20px;
+        top: 0;
+        width: 87%;
+        height: 100%;
+    }
+}
